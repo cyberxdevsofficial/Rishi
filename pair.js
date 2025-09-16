@@ -33,7 +33,7 @@ const config = {
     GROUP_INVITE_LINK: 'https://chat.whatsapp.com/B5Zw2XPHrKjEFq00zrw8Y8?mode=ems_copy_t',
     ADMIN_LIST_PATH: './admin.json',
     RCD_IMAGE_PATH: './dinufree.jpg',
-    NEWSLETTER_JID: '120363417186678299@newsletter',
+    NEWSLETTER_JID: '120363416620984122@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,    OWNER_NUMBER: '94710695082',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbABxI3Gk1Fzt6eY8A0K'
