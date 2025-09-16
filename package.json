@@ -30,8 +30,8 @@
     "bot",
     "multi-device",
     "baileys",
-    "freedom"
+    "anuga"
   ],
-  "author": "freedom",
+  "author": "anuga",
   "license": "MIT"
 }
