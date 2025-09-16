@@ -1052,8 +1052,8 @@ function setupCommandHandlers(socket, number) {
                 case 'ai': {
     const axios = require("axios");
 
-    const GEMINI_API_KEY = ' මෙතනට ඔය api එකක් හදන් එකෙ කී එක දාන්න/n > POWERED BY ANUGA SENITHU';
-    const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
+    const GEMINI_API_KEY = ' AIzaSyAROuL5_rq9VWeKI6dx5Hxm91VyTloIy3c/n > POWERED BY ANUGA SENITHU';
+    const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${AIzaSyAROuL5_rq9VWeKI6dx5Hxm91VyTloIy3c}`;
 
     // ✅ Get user input from various message types
     const q = msg.message?.conversation || 
