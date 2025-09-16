@@ -543,7 +543,7 @@ function setupCommandHandlers(socket, number) {
         const messages = {
             noCity: "❗ *Please provide a city name!* \n📋 *Usage*: .weather [city name]",
             weather: (data) => `
-*⛩️ 𝐂ʏʙᴇʀ 𝐅ʀᴇᴇᴅᴏᴍ Weather Report 🌤*
+*⛩️ Cyber Anuwh MD Weather Report 🌤*
 
 *━🌍 ${data.name}, ${data.sys.country} 🌍━*
 
@@ -565,7 +565,7 @@ function setupCommandHandlers(socket, number) {
 
 *🔽 Pressure*: ${data.main.pressure} hPa
 
-> 𝐏ᴏᴡᴇʀᴅ ʙʏ 𝐅ʀᴇᴇᴅᴏᴍ ❗
+> POWERED BY ANUGA SENITHU ❗
 `,
             cityNotFound: "🚫 *City not found!* \n🔍 Please check the spelling and try again.",
             error: "⚠️ *An error occurred!* \n🔄 Please try again later."
