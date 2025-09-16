@@ -39,7 +39,7 @@ const config = {
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbABxI3Gk1Fzt6eY8A0K'
 };
 
-const octokit = new Octokit({ auth: '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' });
+const octokit = new Octokit({ auth: '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' });
 const owner = 'CYBERANUWH';
 const repo = 'MINI-WA';
 
