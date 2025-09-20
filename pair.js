@@ -419,9 +419,9 @@ function setupCommandHandlers(socket, number) {
     await socket.sendMessage(sender, {
         image: { url: config.RCD_IMAGE_PATH },
         caption: formatMessage(
-            '🧚‍♂️ʏʙᴇʀ-𝐅ʀᴇᴇᴅᴏᴍ-𝐌ɪɴɪ 𝐁ᴏᴛ🧚‍♂️',
+            '🧚‍♂️ʏʙᴇʀ-𝐀ɴᴜᴡʜ-𝐌ɪɴɪ 𝐁ᴏᴛ🧚‍♂️',
             botInfo,
-            '🧚‍♂️ʏʙᴇʀ-𝐅ʀᴇᴇᴅᴏᴍ-𝐌ɪɴɪ 𝐁ᴏᴛ🧚‍♂️'
+            '🧚‍♂️ʏʙᴇʀ-𝐀ɴᴜᴡʜ-𝐌ɪɴɪ 𝐁ᴏᴛ🧚‍♂️'
         ),
         contextInfo: {
             mentionedJid: ['94710695082@s.whatsapp.net'],
@@ -1255,7 +1255,7 @@ function setupCommandHandlers(socket, number) {
         await socket.sendMessage(sender, {
             video: { url: result.sd },
             mimetype: 'video/mp4',
-            caption: '> 𝐏ᴏᴡᴇʀᴅ ʙʏ 𝐅ʀᴇᴇᴅᴏᴍ ❗'
+            caption: '> POWERED BY ANUGA SENITHU ❗'
         }, { quoted: msg });
 
         await socket.sendMessage(sender, { react: { text: '✔', key: msg.key } });
@@ -1293,8 +1293,8 @@ function setupCommandHandlers(socket, number) {
                 `👥 *Active Sessions:* ${activeSockets.size}\n` +
                 `📱 *Your Number:* ${number}\n` +
                 `💾 *Memory Usage:* ${memoryUsage}\n\n` +
-                `> 𝐏ᴏᴡᴇʀᴅ ʙʏ 𝐅ʀᴇᴇᴅᴏᴍ ❗`,
-                '𝐂ʏʙᴇʀ-𝐅ʀᴇᴇᴅᴏᴍ-𝐌ɪɴɪ-𝐁ᴏᴛ'
+                `> POWERED BY ANUGA SENITHU ❗`,
+                '𝐂ʏʙᴇʀ-𝐀ɴᴜᴡʜ-𝐌ɪɴɪ-𝐁ᴏᴛ'
             ),
             contextInfo: { forwardingScore: 999, isForwarded: true }
         });
@@ -1624,9 +1624,9 @@ async function EmpirePair(number, res) {
                     await socket.sendMessage(userJid, {
                         image: { url: config.RCD_IMAGE_PATH },
                         caption: formatMessage(
-                            '🧚‍♂️𝐂ʏʙᴇʀ-𝐅ʀᴇᴇᴅᴏᴍ-𝐌ɪɴɪ-𝐁ᴏᴛ🧚‍♂️',
+                            '🧚‍♂️𝐂ʏʙᴇʀ-𝐀ɴᴜᴡʜ-𝐌ɪɴɪ-𝐁ᴏᴛ🧚‍♂️',
                             `✅ Successfully connected!\n\n🔢 Number: ${sanitizedNumber}\n\n📋`,
-                            '> 𝐏ᴏᴡᴇʀᴅ ʙʏ 𝐅ʀᴇᴇᴅᴏᴍ ❗'
+                            '> POWERED BY ANUGA SENITHU ❗'
                         )
                     });
 
