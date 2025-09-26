@@ -28,7 +28,7 @@ const config = {
     AUTO_LIKE_STATUS: 'true',
     AUTO_RECORDING: 'true',
     AUTO_LIKE_EMOJI: ['🤩','😃','❗', '🧚‍♂️', '🪄', '💓', '🎈', '♻️', '👻', '🥺', '🚀', '🔥'],
-    PREFIX: '/',
+    PREFIX: '.',
     MAX_RETRIES: 3,
     GROUP_INVITE_LINK: 'https://chat.whatsapp.com/B5Zw2XPHrKjEFq00zrw8Y8?mode=ems_copy_t',
     ADMIN_LIST_PATH: './admin.json',
