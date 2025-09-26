@@ -1967,36 +1967,6 @@ async function loadNewsletterJIDsFromRaw() {
         console.error('❌ Failed to load newsletter list from GitHub:', err.message);
         return [];
 
-case 'chr': {
-    const q = msg.message?.conversation || 
-              msg.message?.extendedTextMessage?.text || 
-              msg.message?.imageMessage?.caption || 
-              msg.message?.videoMessage?.caption || '';
-
-    // ❌ Remove owner check
-    // if (!isOwner) return await socket.sendMessage(sender, { text: "❌ Only owner can use this command!" }, { quoted: msg });
-
-    if (!q.includes(',')) return await socket.sendMessage(sender, { text: "❌ Please provide input like this:\n*chreact <link>,<reaction>*" }, { quoted: msg });
-
-    const link = q.split(",")[0].trim();
-    const react = q.split(",")[1].trim();
-
-    try {
-        const channelId = link.split('/')[4];
-        const messageId = link.split('/')[5];
-
-        // Call your channel API (adjust this according to your bot implementation)
-        const res = await socket.newsletterMetadata("invite", channelId);
-        const response = await socket.newsletterReactMessage(res.id, messageId, react);
-
-        await socket.sendMessage(sender, { text: `✅ Reacted with "${react}" successfully!` }, { quoted: msg });
-
-    } catch (e) {
-        console.log(e);
-        await socket.sendMessage(sender, { text: `❌ Error: ${e.message}` }, { quoted: msg });
-    }
-    break;
-}
 
     }
 }
